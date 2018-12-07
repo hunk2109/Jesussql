@@ -12,6 +12,7 @@ namespace PRESENTACION
 {
     public partial class FormAdministrarMedic : Form
     {
+        conccionsql oper = new conccionsql();
         public FormAdministrarMedic()
         {
             InitializeComponent();
@@ -24,10 +25,15 @@ namespace PRESENTACION
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+            oper.consultasinreaultado("");
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
